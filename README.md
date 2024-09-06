@@ -1,8 +1,21 @@
-# React + Vite
+# User Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a User Management System built with React.js. It allows users to view, add, edit, and delete user information. The application uses JSONPlaceholder as a mock API for user data and incorporates features such as loading states, error handling, and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **User List**: Displays a list of users with options to view details, edit, or delete.
+-  **User List**: Displays each  user in card form with their details on click user list.
+- **User Form**: Allows adding or updating user information.
+- **Loading and Error Handling**: Skeleton screens for loading states and error messages for API failures.
+- **Responsive Design**: Ensures compatibility with various devices.
+
+## Technologies Used
+
+- **React.js**: For building the user interface.
+- **Axios**: For making HTTP requests to the mock API.
+- **Tailwind CSS**: For styling and responsive design.
+
+
