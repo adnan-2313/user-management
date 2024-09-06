@@ -56,8 +56,8 @@ const Users = () => {
   }
 
   return (
-    <section className="w-full p-[80px_80px] mx-auto max-w-[1300px] font-DMSANS">
-      <div className="flex flex-row mb-[50px] justify-between w-[90%]">
+    <section className="w-full p-[80px_80px] mx-auto max-w-[1300px] font-DMSANS max-md:p-[20px] max-sm:p-[2px] max-sm:pl-[10px]">
+      <div className="flex flex-row mb-[50px] justify-between w-[90%] ">
         <h2 className="text-[2rem] font-medium">User's List</h2>
         <button
           className="bg-black text-white px-[20px] rounded-[7px] text-[1.2rem]"
@@ -72,7 +72,7 @@ const Users = () => {
           return (
             <div
               key={id}
-              className="w-[90%] text-gray-800 flex justify-between p-[20px] shadow-[0px_-2px_10px_rgba(0,0,0,0.15)] rounded-[10px] cursor-pointer"
+              className="w-[90%] text-gray-800 flex justify-between p-[20px]  shadow-[0px_-2px_10px_rgba(0,0,0,0.15)] rounded-[10px] cursor-pointer"
             >
               <div
                 className="w-[80%]"
@@ -80,7 +80,7 @@ const Users = () => {
                 title="See details"
               >
                 <h2 className="text-[1.5rem] font-medium">{name}</h2>
-                <div className="flex flex-row justify-between">
+                <div className="flex flex-row justify-between flex-wrap">
                   <span className="flex justify-center gap-2 text-[1rem] items-center">
                     <CiUser />
                     {username}

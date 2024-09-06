@@ -1,5 +1,5 @@
-import Users from "./UsersList";
-import Navbar from "./Navbar";
+import Users from "./Components/UsersList";
+import Navbar from "./Components/Navbar";
 import { Outlet } from "react-router-dom";
 function App() {
   return (
