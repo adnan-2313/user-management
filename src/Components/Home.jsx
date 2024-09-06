@@ -7,7 +7,7 @@ const Home = () => {
       Welcome To
       <span>User' Management App</span>
       <button
-        className="text-[1.5rem] p-[20px] rounded-md bg-black animate-bounce text-white"
+        className="text-[1.5rem] max-md:mt-[2rem] max-md:p-[10px] max-md:text-[0.8rem] p-[20px] rounded-md bg-black animate-bounce text-white"
         onClick={() => navigate("/")}
       >
         Let's Start
